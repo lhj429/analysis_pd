@@ -1,11 +1,11 @@
 from urllib.parse import urlencode
 from .web_request import json_request
 
-SERVICE_KEY = 'kglFus9rQiSwGqFYcuHmr87yibNi7qlvrcMbHW1JBvzsbgfwovIZpBJsQ0tDK0osX9ySfBxiPrqY%2BrnoEoYvKQ%3D%3D'
+SERVICE_KEY = '%2FfZdR%2Bue1CSxLEnMkZXa9iDYontLTMTIteD5%2BzYCiMYpDKUZNUh2FHGDQ04zazSEmLl34FClDQk8a7flFCIQKA%3D%3D'
 END_POINT = 'http://openapi.tour.go.kr/openapi/service/TourismResourceStatsService/getPchrgTrrsrtVisitorList'
 
-def pd_gen_url(endpoint, service_key=SERVICE_KEY, **params):
-    url = '%s?serviceKey=%s&%s' % (endpoint, service_key, urlencode(params))
+def pd_gen_url(endpoint, **params):
+    url = '%s?%s&serviceKey=%s' % (endpoint, urlencode(params), SERVICE_KEY)
     return url
 
 def pd_fetch_tourspot_visitor(district1='', district2='', tourspot='', year=0, month=0):

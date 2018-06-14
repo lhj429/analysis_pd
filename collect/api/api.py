@@ -17,14 +17,7 @@ def pd_fetch_tourspot_visitor(district1='', district2='', tourspot='', year=0, m
                      _type='json',
                      RES_NM=tourspot)
 
-    isnext = True
-    while isnext is True:
-        json_result = json_request(url=url)
+    json_result = json_request(url=url)
+    data = None if json_result is None else json_result.get('response').get('body').get('items').get('item')
 
-        body = None if json_result is None else json_result.get('response').get('body').get('items')
-        data = None if json_result is None else json_result.get('response').get('body').get('items').get('item')
-
-        url = None if body is None else body.get('totalCount')
-        isnext = url is not None
-
-        yield data
+    yield data

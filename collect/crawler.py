@@ -47,8 +47,10 @@ def preprocess_post(datum):
         datum['restrict2'] = 0
     else:
         datum['restrict2'] = datum['gungu']
+
     for delete in rm:
-        del datum[delete]
+        if delete in datum:
+            del datum[delete]
 
 
 

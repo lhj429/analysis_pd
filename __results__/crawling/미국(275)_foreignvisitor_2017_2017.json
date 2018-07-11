@@ -1,0 +1,74 @@
+[
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201701,
+        "visit_count": 57212
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201702,
+        "visit_count": 52732
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201703,
+        "visit_count": 72477
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201704,
+        "visit_count": 83485
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201705,
+        "visit_count": 76347
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201706,
+        "visit_count": 85955
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201707,
+        "visit_count": 82472
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201708,
+        "visit_count": 71496
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201709,
+        "visit_count": 70933
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201710,
+        "visit_count": 80000
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201711,
+        "visit_count": 69009
+    },
+    {
+        "country_code": 275,
+        "country_name": "미국",
+        "date": 201712,
+        "visit_count": 66763
+    }
+]
